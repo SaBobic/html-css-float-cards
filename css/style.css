@@ -50,14 +50,18 @@ header{
 section{
     text-align: left;
     background-color: #000;
-    width: calc(100% / 3 - 20px);
-    margin: 0 10px;
+    width: calc(100% / 3 - 30px);
+    margin: 0 15px;
     margin-bottom: 20px;
 }
 
 .member-img{
     height: 120px;
     margin-right: 12px;
+}
+
+.member-info{
+    padding: 24px 0;
 }
 
 .member-name{
