@@ -31,6 +31,14 @@ a:hover{
     text-decoration: underline;
 }
 
+.float-left{
+    float: left;
+}
+
+p{
+    margin-bottom: 60px
+}
+
 /* Header */
 
 header{
@@ -42,19 +50,14 @@ header{
 section{
     text-align: left;
     background-color: #000;
-    width: calc(100% / 3);
-}
-
-.clearfix{
-    content: "";
-    display: table;
-    clear: both;
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+    margin-bottom: 20px;
 }
 
 .member-img{
     height: 120px;
     margin-right: 12px;
-    float: left;
 }
 
 .member-name{
@@ -68,4 +71,10 @@ section{
 
 .member-name, .member-role{
     color: #fff;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
