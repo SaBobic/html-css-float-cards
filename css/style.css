@@ -69,10 +69,6 @@ section{
     font-size: 20px;
 }
 
-.member-role{
-    display: block;
-}
-
 .member-name, .member-role{
     color: #fff;
 }
